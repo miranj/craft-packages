@@ -4,26 +4,20 @@ output-dir: web
 require-all: true
 repositories:
   
+  #
+  # Composer Utilities
+  #
   sasedev/composer-plugin-filecopier:
     type: vcs
     url: 'https://github.com/nedbase/composer-plugin-filecopier'
   
-  miranj/craft-router:
-    type: package
-    package:
-    - name: miranj/craft-router
-      version: '0.2'
-      source:
-        type: git
-        reference: e7d26ed
-        url: https://github.com/miranj/craft-router
-      require:
-        sasedev/composer-plugin-filecopier: "^1.1"
-      extra:
-        filescopier:
-          source: vendor/miranj/craft-router/router
-          destination: craft/plugins/router
   
+  
+  #
+  # Craft Plugins
+  #
+  
+  ## Imager
   aelvan/imager-craft:
     type: package
     package:
@@ -39,4 +33,21 @@ repositories:
         filescopier:
           source: vendor/aelvan/imager-craft/imager
           destination: craft/plugins/imager
+  
+  ## Router
+  miranj/craft-router:
+    type: package
+    package:
+    - name: miranj/craft-router
+      version: '0.2'
+      source:
+        type: git
+        reference: e7d26ed
+        url: https://github.com/miranj/craft-router
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/miranj/craft-router/router
+          destination: craft/plugins/router
   
