@@ -51,3 +51,19 @@ repositories:
           source: vendor/miranj/craft-router/router
           destination: craft/plugins/router
   
+  ## Stamp
+  aelvan/Stamp-Craft:
+    type: package
+    package:
+      name: aelvan/Stamp-Craft
+      version: 1.1.0
+      source:
+        type: git
+        reference: v1.1.0
+        url: https://github.com/aelvan/Stamp-Craft
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+      extra:
+        installer-name: stamp
+
