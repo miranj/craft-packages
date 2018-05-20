@@ -69,7 +69,7 @@ repositories:
           source: vendor/aelvan/imager-craft/imager
           destination: craft/plugins/imager
   
-  # Image Resizer
+  ## Image Resizer
   verbb/image-resizer:
     type: package
     package:
@@ -102,6 +102,23 @@ repositories:
         filescopier:
           source: vendor/miranj/craft-router/router
           destination: craft/plugins/router
+  
+  ## Snitch
+  marionnewlevant/craft-snitch:
+    type: package
+    package:
+      name: marionnewlevant/craft-snitch
+      version: 1.0.2
+      source:
+        type: git
+        reference: v1.0.2
+        url: https://github.com/marionnewlevant/craft-snitch
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/marionnewlevant/craft-snitch/mnsnitch
+          destination: craft/plugins/mnsnitch
   
   ## Stamp
   aelvan/Stamp-Craft:
