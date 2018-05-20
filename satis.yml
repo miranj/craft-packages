@@ -69,6 +69,23 @@ repositories:
           source: vendor/aelvan/imager-craft/imager
           destination: craft/plugins/imager
   
+  # Image Resizer
+  verbb/image-resizer:
+    type: package
+    package:
+    - name: verbb/image-resizer
+      version: 1.1.0
+      source:
+        type: git
+        reference: 1.1.0
+        url: https://github.com/verbb/image-resizer
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/verbb/image-resizer/imageresizer
+          destination: craft/plugins/imageresizer
+  
   ## Router
   miranj/craft-router:
     type: package
