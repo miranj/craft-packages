@@ -7,6 +7,7 @@ repositories:
   #
   # Composer Utilities
   #
+  
   sasedev/composer-plugin-filecopier:
     type: vcs
     url: 'https://github.com/nedbase/composer-plugin-filecopier'
@@ -33,6 +34,23 @@ repositories:
         filescopier:
           source: vendor/mmikkel/cacheflag-craft/cacheflag
           destination: craft/plugins/cacheflag
+  
+  ## Control Panel CSS
+  doublesecretagency/craft-cpcss:
+    type: package
+    package:
+    - name: doublesecretagency/craft-cpcss
+      version: 1.1.1
+      source:
+        type: git
+        reference: e112244
+        url: https://github.com/doublesecretagency/craft-cpcss
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/doublesecretagency/craft-cpcss/cpcss
+          destination: craft/plugins/cpcss
   
   ## Imager
   aelvan/imager-craft:
