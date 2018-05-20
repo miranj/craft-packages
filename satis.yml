@@ -24,3 +24,19 @@ repositories:
           source: vendor/miranj/craft-router/router
           destination: craft/plugins/router
   
+  aelvan/imager-craft:
+    type: package
+    package:
+    - name: aelvan/imager-craft
+      version: 1.6.4
+      source:
+        type: git
+        reference: '9827355'
+        url: https://github.com/aelvan/Imager-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/aelvan/imager-craft/imager
+          destination: craft/plugins/imager
+  
