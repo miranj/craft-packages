@@ -114,6 +114,18 @@ repositories:
         filescopier:
           source: vendor/craftcms/redactor-clips/redactorclips
           destination: craft/plugins/redactorclips
+    - name: craftcms/redactor-clips
+      version: 1.1.0
+      source:
+        type: git
+        reference: 1.1.0
+        url: https://github.com/craftcms/redactor-clips
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/craftcms/redactor-clips/redactorclips
+          destination: craft/plugins/redactorclips
   
   ## Router
   miranj/craft-router:
