@@ -18,6 +18,24 @@ repositories:
   # Craft Plugins
   #
   
+  ## Blueprint
+  bjerenec/craftcms-blueprint:
+    type: package
+    package:
+    - name: bjerenec/craftcms-blueprint
+      description: Show, filter and provide overview (names, handles, twig variables) of all defined content (fields, sections, globals, assets, categories, tags ...).
+      version: 0.5
+      homepage: https://github.com/bjerenec/craftcms-blueprint
+      source:
+        type: git
+        reference: 0.5
+        url: https://github.com/bjerenec/craftcms-blueprint
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+      extra:
+        installer-name: blueprint
+  
   ## CacheFlag
   mmikkel/cacheflag-craft:
     type: package
