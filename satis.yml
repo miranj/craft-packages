@@ -52,6 +52,23 @@ repositories:
           source: vendor/doublesecretagency/craft-cpcss/cpcss
           destination: craft/plugins/cpcss
   
+  ## Embedded Assets
+  benjamminf/craft-embedded-assets:
+    type: package
+    package:
+    - name: benjamminf/craft-embedded-assets
+      version: 0.4.1
+      source:
+        type: git
+        reference: 0.4.1
+        url: https://github.com/benjamminf/craft-embedded-assets
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/benjamminf/craft-embedded-assets/embeddedassets
+          destination: craft/plugins/embeddedassets
+  
   ## Imager
   aelvan/imager-craft:
     type: package
