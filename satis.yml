@@ -86,6 +86,23 @@ repositories:
           source: vendor/verbb/image-resizer/imageresizer
           destination: craft/plugins/imageresizer
   
+  ## Obsolete URL Redirect
+  lacroixdesign/craft-obsolete-url-redirect:
+    type: package
+    package:
+    - name: lacroixdesign/craft-obsolete-url-redirect
+      version: 0.1.0
+      source:
+        type: git
+        reference: 34d5ee8
+        url: https://github.com/lacroixdesign/craft-obsolete-url-redirect
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/lacroixdesign/craft-obsolete-url-redirect/obsoleteredirect
+          destination: craft/plugins/obsoleteredirect
+  
   ## Redactor Clips
   craftcms/redactor-clips:
     type: package
