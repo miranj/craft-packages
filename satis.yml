@@ -69,6 +69,20 @@ repositories:
           source: vendor/aelvan/imager-craft/imager
           destination: craft/plugins/imager
   
+  ## Imager Pretransform
+  sjelfull/imagerpretransform:
+    type: package
+    package:
+    - name: sjelfull/imagerpretransform
+      version: 1.0.4
+      source:
+        type: git
+        reference: 1.0.4
+        url: https://github.com/sjelfull/imagerpretransform
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+
   ## Image Resizer
   verbb/image-resizer:
     type: package
