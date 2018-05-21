@@ -69,6 +69,25 @@ repositories:
           source: vendor/benjamminf/craft-embedded-assets/embeddedassets
           destination: craft/plugins/embeddedassets
   
+  ## Environment Label
+  madebykind/craft.labelenvironment:
+    type: package
+    package:
+    - name: madebykind/craft.labelenvironment
+      homepage: https://github.com/madebykind/craft.labelenvironment
+      description: Provides colour-coded labels in your Craft CMS control panel to help easily distinguish between environments
+      version: 2.1.1
+      source:
+        type: git
+        reference: 2.1.1
+        url: https://github.com/madebykind/craft.labelenvironment
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/madebykind/craft.labelenvironment/environmentlabel
+          destination: craft/plugins/environmentlabel
+  
   ## Imager
   aelvan/imager-craft:
     type: package
