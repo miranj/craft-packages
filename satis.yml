@@ -86,6 +86,23 @@ repositories:
           source: vendor/verbb/image-resizer/imageresizer
           destination: craft/plugins/imageresizer
   
+  ## Redactor Clips
+  craftcms/redactor-clips:
+    type: package
+    package:
+    - name: craftcms/redactor-clips
+      version: 1.2.1
+      source:
+        type: git
+        reference: 1.2.1
+        url: https://github.com/craftcms/redactor-clips
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/craftcms/redactor-clips/redactorclips
+          destination: craft/plugins/redactorclips
+  
   ## Router
   miranj/craft-router:
     type: package
