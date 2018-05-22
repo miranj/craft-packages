@@ -23,7 +23,7 @@ repositories:
     type: package
     package:
     - name: bjerenec/craftcms-blueprint
-      description: Show, filter and provide overview (names, handles, twig variables) of all defined content (fields, sections, globals, assets, categories, tags ...).
+      description: Show, filter and provide overview (names, handles, twig variables) of all defined content (fields, sections, globals, assets, categories, tags ...)
       version: 0.5
       homepage: https://github.com/bjerenec/craftcms-blueprint
       source:
@@ -41,6 +41,8 @@ repositories:
     type: package
     package:
     - name: mmikkel/cacheflag-craft
+      homepage: https://github.com/mmikkel/CacheFlag-Craft
+      description: Flag and clear template caches without element queries
       version: 1.1.11
       source:
         type: git
@@ -58,6 +60,8 @@ repositories:
     type: package
     package:
     - name: doublesecretagency/craft-cpcss
+      homepage: https://github.com/doublesecretagency/craft-cpcss
+      description: Add custom CSS to your Control Panel.
       version: 1.1.1
       source:
         type: git
@@ -75,6 +79,8 @@ repositories:
     type: package
     package:
     - name: benjamminf/craft-embedded-assets
+      homepage: https://github.com/benjamminf/craft-embedded-assets
+      description: Add embeddable media such as YouTube videos to your assets manager.
       version: 0.4.1
       source:
         type: git
@@ -111,6 +117,8 @@ repositories:
     type: package
     package:
     - name: aelvan/imager-craft
+      description: Image transforms gone wild.
+      homepage: https://github.com/aelvan/Imager-Craft/tree/master
       version: 1.6.4
       source:
         type: git
@@ -128,6 +136,8 @@ repositories:
     type: package
     package:
     - name: sjelfull/imagerpretransform
+      description: Pretransform any Assets on save, with Imager
+      homepage: https://github.com/sjelfull/imagerpretransform
       version: 1.0.4
       source:
         type: git
@@ -142,6 +152,8 @@ repositories:
     type: package
     package:
     - name: verbb/image-resizer
+      homepage: https://verbb.io/craft-plugins/image-resizer/features
+      description: Keep your large assets under control by resizing images on-upload. Also provides cropping!
       version: 1.1.0
       source:
         type: git
@@ -159,6 +171,8 @@ repositories:
     type: package
     package:
     - name: lacroixdesign/craft-obsolete-url-redirect
+      description: http://www.lacroixdesign.net/blog/craft-obsolete-url-redirect-plugin/
+      homepage: A plugin for Craft to automatically redirect from an entry’s old URL to its new URL.
       version: 0.1.0
       source:
         type: git
@@ -176,6 +190,8 @@ repositories:
     type: package
     package:
     - name: craftcms/redactor-clips
+      description: Adds Redactor’s “Clips” plugin to Rich Text fields in Craft
+      homepage: https://github.com/craftcms/redactor-clips/tree/v1
       version: 1.2.1
       source:
         type: git
@@ -217,6 +233,8 @@ repositories:
     type: package
     package:
     - name: miranj/craft-router
+      description: Route requests to pages with filtered, pre-loaded lists of Entries.
+      homepage: https://github.com/miranj/craft-router
       version: '0.2'
       source:
         type: git
@@ -234,6 +252,8 @@ repositories:
     type: package
     package:
       name: marionnewlevant/craft-snitch
+      description: Detect when two people might be editing the same entry, category, or global
+      homepage: https://github.com/marionnewlevant/craft-snitch/tree/v1
       version: 1.0.2
       source:
         type: git
@@ -251,6 +271,8 @@ repositories:
     type: package
     package:
     - name: aelvan/Stamp-Craft
+      description: Plugin for adding timestamp to filenames.
+      homepage: https://github.com/aelvan/Stamp-Craft
       version: 1.1.0
       source:
         type: git
