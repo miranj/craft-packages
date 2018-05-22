@@ -31,9 +31,14 @@ Usage
 
 
 
+Built With
+----------
+- [Composer][]
+- [Satis](https://github.com/composer/satis)
+
+
+
 Acknowledgments
 ---------------
 - Derrick Grigg for inspiration and much of the hard work in creating [a composer workflow for Craft 2](https://dgrigg.com/blog/setting-up-a-craftcms-website-and-plugins-with-composer)
-- Pixel & Tonic for Craft CMS
-- [Composer][]
-- [Satis](https://github.com/composer/satis)
+- [Pixel & Tonic](https://pixelandtonic.com/) for Craft CMS
