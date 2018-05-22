@@ -1,5 +1,5 @@
-name: satis [dot] miranj
-homepage: https://satis.miranj.in/
+name: Craft CMS 2 Packages
+homepage: https://craft2packages.miranj.in/
 output-dir: web
 require-all: true
 repositories:
