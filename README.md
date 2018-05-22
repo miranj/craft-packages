@@ -17,7 +17,7 @@ Usage
     {
       "repositories": [{
         "type": "composer",
-        "url": "https://satis.miranj.in/"
+        "url": "https://craft2packages.miranj.in/"
       }]
     }
     ```
