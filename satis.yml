@@ -29,7 +29,7 @@ repositories:
       homepage: https://github.com/bjerenec/craftcms-blueprint
       source:
         type: git
-        reference: 0.5
+        reference: bf60baa
         url: https://github.com/bjerenec/craftcms-blueprint
       type: craft-plugin
       require:
