@@ -218,6 +218,25 @@ repositories:
           source: vendor/lewisjenkins/craft-lj-dynamicfields/lj_dynamicfields
           destination: craft/plugins/lj_dynamicfields
   
+  ## Neo
+  benjamminf/craft-neo:
+    type: package
+    package:
+    - name: benjamminf/craft-neo
+      description: A Matrix-like field type that uses existing fields.
+      homepage: https://github.com/benjamminf/craft-neo
+      version: 1.4.1
+      source:
+        type: git
+        reference: 1.4.1
+        url: https://github.com/benjamminf/craft-neo
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/benjamminf/craft-neo/neo
+          destination: craft/plugins/neo
+
   ## Obsolete URL Redirect
   lacroixdesign/craft-obsolete-url-redirect:
     type: package
