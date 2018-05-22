@@ -185,6 +185,37 @@ repositories:
           source: vendor/verbb/image-resizer/imageresizer
           destination: craft/plugins/imageresizer
   
+  ## LJ Dynamic Fields
+  lewisjenkins/craft-lj-dynamicfields:
+    type: package
+    package:
+    - name: lewisjenkins/craft-lj-dynamicfields
+      description: Dynamic Fields allows you to populate your field options using the power of Twig. Includes checkboxes, dropdown, multi-select and radio buttons.
+      homepage: https://github.com/lewisjenkins/craft-lj-dynamicfields
+      version: dev
+      source:
+        type: git
+        reference: master
+        url: https://github.com/lewisjenkins/craft-lj-dynamicfields
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/lewisjenkins/craft-lj-dynamicfields/lj_dynamicfields
+          destination: craft/plugins/lj_dynamicfields
+    - name: lewisjenkins/craft-lj-dynamicfields
+      version: 0.6
+      source:
+        type: git
+        reference: 765565e
+        url: https://github.com/lewisjenkins/craft-lj-dynamicfields
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/lewisjenkins/craft-lj-dynamicfields/lj_dynamicfields
+          destination: craft/plugins/lj_dynamicfields
+  
   ## Obsolete URL Redirect
   lacroixdesign/craft-obsolete-url-redirect:
     type: package
