@@ -219,6 +219,25 @@ repositories:
           source: vendor/lewisjenkins/craft-lj-dynamicfields/lj_dynamicfields
           destination: craft/plugins/lj_dynamicfields
   
+  ## Migration Manager
+  Firstborn/Craft-CMS-Migration-Manager:
+    type: package
+    package:
+    - name: Firstborn/Craft-CMS-Migration-Manager
+      description: 
+      homepage: https://github.com/Firstborn/Craft-CMS-Migration-Manager
+      version: 1.0.9.0
+      source:
+        type: git
+        reference: v1.0.9.0
+        url: https://github.com/Firstborn/Craft-CMS-Migration-Manager
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/Firstborn/Craft-CMS-Migration-Manager/migrationmanager
+          destination: craft/plugins/migrationmanager
+  
   ## Neo
   benjamminf/craft-neo:
     type: package
