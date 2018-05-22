@@ -112,6 +112,25 @@ repositories:
           source: vendor/madebykind/craft.labelenvironment/environmentlabel
           destination: craft/plugins/environmentlabel
   
+  ## Expanded Singles
+  verbb/expanded-singles:
+    type: package
+    package:
+    - name: verbb/expanded-singles
+      homepage: https://verbb.io/craft-plugins/expanded-singles
+      description: Craft CMS plugin to list Singles in the sidebar when editing Entries.
+      version: 0.2.5
+      source:
+        type: git
+        reference: 0.2.5
+        url: https://github.com/verbb/expanded-singles
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/verbb/expanded-singles/expandedsingles
+          destination: craft/plugins/expandedsingles
+  
   ## Imager
   aelvan/imager-craft:
     type: package
@@ -152,7 +171,7 @@ repositories:
     type: package
     package:
     - name: verbb/image-resizer
-      homepage: https://verbb.io/craft-plugins/image-resizer/features
+      homepage: https://verbb.io/craft-plugins/image-resizer
       description: Keep your large assets under control by resizing images on-upload. Also provides cropping!
       version: 1.1.0
       source:
