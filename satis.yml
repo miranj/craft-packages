@@ -171,8 +171,8 @@ repositories:
     type: package
     package:
     - name: lacroixdesign/craft-obsolete-url-redirect
-      description: http://www.lacroixdesign.net/blog/craft-obsolete-url-redirect-plugin/
-      homepage: A plugin for Craft to automatically redirect from an entry’s old URL to its new URL.
+      description: A plugin for Craft to automatically redirect from an entry’s old URL to its new URL.
+      homepage: http://www.lacroixdesign.net/blog/craft-obsolete-url-redirect-plugin/
       version: 0.1.0
       source:
         type: git
