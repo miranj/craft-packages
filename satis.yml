@@ -1,4 +1,5 @@
 name: Craft CMS 2 Packages
+description: Packagist server for Craft CMS 2 plugins. Read more https://github.com/miranj/craft-packages
 homepage: https://craft2packages.miranj.in/
 output-dir: web
 require-all: true
