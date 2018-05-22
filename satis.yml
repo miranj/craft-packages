@@ -192,7 +192,7 @@ repositories:
     - name: lewisjenkins/craft-lj-dynamicfields
       description: Dynamic Fields allows you to populate your field options using the power of Twig. Includes checkboxes, dropdown, multi-select and radio buttons.
       homepage: https://github.com/lewisjenkins/craft-lj-dynamicfields
-      version: dev
+      version: dev-master
       source:
         type: git
         reference: master
@@ -204,6 +204,8 @@ repositories:
           source: vendor/lewisjenkins/craft-lj-dynamicfields/lj_dynamicfields
           destination: craft/plugins/lj_dynamicfields
     - name: lewisjenkins/craft-lj-dynamicfields
+      description: Dynamic Fields allows you to populate your field options using the power of Twig. Includes checkboxes, dropdown, multi-select and radio buttons.
+      homepage: https://github.com/lewisjenkins/craft-lj-dynamicfields
       version: 0.6
       source:
         type: git
