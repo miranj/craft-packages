@@ -300,6 +300,25 @@ repositories:
           source: vendor/craftcms/redactor-clips/redactorclips
           destination: craft/plugins/redactorclips
   
+  ## Relabel
+  benjamminf/craft-relabel:
+    type: package
+    package:
+    - name: benjamminf/craft-relabel
+      description: Override field labels and instructions in the field layout designer.
+      homepage: https://github.com/benjamminf/craft-relabel
+      version: 0.1.3
+      source:
+        type: git
+        reference: 0.1.3
+        url: https://github.com/benjamminf/craft-relabel
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/benjamminf/craft-relabel/relabel
+          destination: craft/plugins/relabel
+  
   ## Router
   miranj/craft-router:
     type: package
@@ -307,7 +326,7 @@ repositories:
     - name: miranj/craft-router
       description: Route requests to pages with filtered, pre-loaded lists of Entries.
       homepage: https://github.com/miranj/craft-router
-      version: '0.2'
+      version: 0.2
       source:
         type: git
         reference: e7d26ed
