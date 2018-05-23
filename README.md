@@ -10,7 +10,7 @@ all the [Composer][] goodness?
 
 Usage
 -----
-1.  Create a `composer.json` file in the root folder of your Craft CMS 2 project.
+1.  Create a `composer.json` file in the root folder of your Craft 2 project.
 
 2.  Add the following to your `composer.json`
     ```
@@ -32,7 +32,7 @@ Usage
 
 Contributing
 ------------
-Don’t see a plugin you want to use listed? Feel free to [request inclusion][issue], or better yet, add it yourself by [submitting a pull request][pull].
+Don’t see the plugin you want to use listed? Feel free to [request inclusion][issue], or better yet, add it yourself by [submitting a pull request][pull].
 Here's how:
 
 1.  First, make sure that the Craft 2 version of the plugin you wish to add isn't already available
@@ -78,7 +78,7 @@ Here's how:
                 destination: craft/plugins/imager           # craft/plugins/<subfolder>
 
 You will find plenty of examples already inside `sats.yml` for the variants described above,
-and for things like adding multiple versions of a plugin.
+as well as for things like adding multiple versions of a plugin.
 
 Refer to the [official Composer repositories docs][repo docs] for all the supported options and variations.
 
