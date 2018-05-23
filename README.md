@@ -99,5 +99,7 @@ Built With
 
 Acknowledgments
 ---------------
-- Derrick Grigg for inspiration and much of the hard work in creating [a Composer workflow for Craft 2](https://dgrigg.com/blog/setting-up-a-craftcms-website-and-plugins-with-composer)
+- [Derrick Grigg][dg] for inspiration and much of the hard work in creating [a Composer workflow for Craft 2](https://dgrigg.com/blog/setting-up-a-craftcms-website-and-plugins-with-composer)
 - [Pixel & Tonic](https://pixelandtonic.com/) for Craft CMS
+
+[dg]:https://twitter.com/derrickgrigg
