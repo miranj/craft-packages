@@ -3,6 +3,7 @@ description: Packagist server for Craft CMS 2 plugins. Read more https://github.
 homepage: https://craft2packages.miranj.in/
 output-dir: web
 twig-template: views/index.html.twig
+notify-batch": /downloads/
 require-all: true
 repositories:
   
