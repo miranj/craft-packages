@@ -226,8 +226,9 @@ repositories:
     type: package
     package:
     - name: Firstborn/Craft-CMS-Migration-Manager
-      description: 
+      description: Create migrations to easily move settings and content between CraftCMS website installations.
       homepage: https://github.com/Firstborn/Craft-CMS-Migration-Manager
+      license: MIT
       version: 1.0.9.0
       source:
         type: git
@@ -239,6 +240,26 @@ repositories:
         filescopier:
           source: vendor/Firstborn/Craft-CMS-Migration-Manager/migrationmanager
           destination: craft/plugins/migrationmanager
+  
+  ## Preparse Field
+  aelvan/Preparse-Field-Craft:
+    type: package
+    package:
+    - name: aelvan/Preparse-Field-Craft
+      description: A fieldtype that parses Twig when an element is saved, and saves the result as plain text.
+      homepage: https://github.com/aelvan/Preparse-Field-Craft/tree/master
+      license: MIT
+      version: 0.3.6
+      source:
+        type: git
+        reference: v0.3.6
+        url: https://github.com/aelvan/Preparse-Field-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/aelvan/Preparse-Field-Craft/preparsefield
+          destination: craft/plugins/preparsefield
   
   ## Neo
   benjamminf/craft-neo:
