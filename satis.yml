@@ -436,3 +436,22 @@ repositories:
       extra:
         installer-name: stamp
   
+  ## SuperSort
+  TopShelfCraft/SuperSort:
+    type: package
+    package:
+    - name: TopShelfCraft/SuperSort
+      description: A Twig filter for sorting elements by rendering a micro template — Sort elements by Matrix values, math results, properties of related elements, etc.
+      homepage: https://github.com/TopShelfCraft/SuperSort/tree/1.x
+      version: 1.2.0
+      source:
+        type: git
+        reference: 1.2.0
+        url: https://github.com/TopShelfCraft/SuperSort
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/TopShelfCraft/SuperSort/supersort
+          destination: craft/plugins/supersort
+
