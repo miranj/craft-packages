@@ -454,4 +454,23 @@ repositories:
         filescopier:
           source: vendor/TopShelfCraft/SuperSort/supersort
           destination: craft/plugins/supersort
+  
+  ## Table Maker
+  supercool/tablemaker:
+    type: package
+    package:
+    - name: supercool/tablemaker
+      description: A field type that enables your users to define their own tables.
+      homepage: https://github.com/supercool/tablemaker/tree/craft2
+      version: 1.0
+      source:
+        type: git
+        reference: 1.0
+        url: https://github.com/supercool/tablemaker
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/supercool/tablemaker/tablemaker
+          destination: craft/plugins/tablemaker
 
