@@ -473,4 +473,22 @@ repositories:
         filescopier:
           source: vendor/supercool/tablemaker/tablemaker
           destination: craft/plugins/tablemaker
-
+  
+  ## Typogrify
+  jamiepittock/craft-typogrify:
+    type: package
+    package:
+    - name: jamiepittock/craft-typogrify
+      description: Typogrify prettifies your web typography by preventing ugly quotes and 'widows' and providing CSS hooks to style some special cases.
+      homepage: https://github.com/jamiepittock/craft-typogrify
+      version: 1.0.1
+      source:
+        type: git
+        reference: 1e02b8d
+        url: https://github.com/jamiepittock/craft-typogrify
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/jamiepittock/craft-typogrify/typogrify
+          destination: craft/plugins/typogrify
