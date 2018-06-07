@@ -58,6 +58,25 @@ repositories:
           source: vendor/mmikkel/cacheflag-craft/cacheflag
           destination: craft/plugins/cacheflag
   
+  ## Contact Form
+  craftcms/contact-form:
+    type: package
+    package:
+    - name: craftcms/contact-form
+      description: Simple email contact form plugin for Craft.
+      homepage: https://github.com/craftcms/contact-form/tree/v1
+      version: 1.9.2
+      source:
+        type: git
+        reference: 1.9.2
+        url: https://github.com/craftcms/contact-form
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/craftcms/contact-form/contactform
+          destination: craft/plugins/contactform
+  
   ## Control Panel CSS
   doublesecretagency/craft-cpcss:
     type: package
