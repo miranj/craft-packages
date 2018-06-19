@@ -280,6 +280,26 @@ repositories:
           source: vendor/Firstborn/Craft-CMS-Migration-Manager/migrationmanager
           destination: craft/plugins/migrationmanager
   
+  ## Obfuscator
+  miranj/craft-obfuscator:
+    type: package
+    package:
+    - name: miranj/craft-obfuscator
+      description: A Craft CMS plugin that adds a Twig filter to obfuscate emails.
+      homepage: https://github.com/miranj/craft-obfuscator
+      license: MIT
+      version: 0.2.1
+      source:
+        type: git
+        reference: v0.2.1
+        url: https://github.com/miranj/craft-obfuscator
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/miranj/craft-obfuscator/obfuscator
+          destination: craft/plugins/obfuscator
+  
   ## Preparse Field
   aelvan/Preparse-Field-Craft:
     type: package
