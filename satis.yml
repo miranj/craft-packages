@@ -246,6 +246,25 @@ repositories:
           source: vendor/verbb/image-resizer/imageresizer
           destination: craft/plugins/imageresizer
   
+  ## Language Link
+  lindseydiloreto/craft-languagelink:
+    type: package
+    package:
+    - name: lindseydiloreto/craft-languagelink
+      homepage: https://github.com/lindseydiloreto/craft-languagelink
+      description: Easily switch between languages on any page of your website!
+      version: 1.1.0
+      source:
+        type: git
+        reference: 08bacb0
+        url: https://github.com/lindseydiloreto/craft-languagelink
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/lindseydiloreto/craft-languagelink/languagelink
+          destination: craft/plugins/languagelink
+  
   ## LJ Dynamic Fields
   lewisjenkins/craft-lj-dynamicfields:
     type: package
