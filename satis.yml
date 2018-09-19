@@ -496,6 +496,24 @@ repositories:
           source: vendor/marionnewlevant/craft-snitch/mnsnitch
           destination: craft/plugins/mnsnitch
   
+  ## Sprout Invisible Captcha
+  barrelstrength/craft-sprout-invisible-captcha:
+    type: package
+    package:
+    - name: barrelstrength/craft-sprout-invisible-captcha
+      description: Invisible Captcha provides several user-friendly methods to protect your forms from vile spammers and evil robots.
+      homepage: https://sprout.barrelstrengthdesign.com/craft-plugins/invisible-captcha
+      version: 0.9.1
+      source:
+        type: git
+        reference: v0.9.1
+        url: https://github.com/barrelstrength/craft-sprout-invisible-captcha
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+      extra:
+        installer-name: sproutinvisiblecaptcha
+  
   ## Stamp
   aelvan/Stamp-Craft:
     type: package
