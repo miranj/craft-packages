@@ -514,6 +514,24 @@ repositories:
       extra:
         installer-name: sproutinvisiblecaptcha
   
+  ## Sprout Reports
+  barrelstrength/craft-sprout-reports:
+    type: package
+    package:
+    - name: barrelstrength/craft-sprout-reports
+      description: Sprout Reports allows you to create and group custom reports.
+      homepage: https://sprout.barrelstrengthdesign.com/docs/reports/
+      version: 0.9.3
+      source:
+        type: git
+        reference: v0.9.3
+        url: https://github.com/barrelstrength/craft-sprout-reports
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+      extra:
+        installer-name: sproutreports
+  
   ## Stamp
   aelvan/Stamp-Craft:
     type: package
