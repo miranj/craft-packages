@@ -477,6 +477,25 @@ repositories:
           source: vendor/miranj/craft-router/router
           destination: craft/plugins/router
   
+  ## Anchors
+  supercool/scheduler:
+    type: package
+    package:
+    - name: supercool/scheduler
+      description: A plugin for Craft CMS that allows you to schedule Jobs to be executed on a given date.
+      version: 1.0.3
+      homepage: https://github.com/supercool/scheduler/tree/craft2
+      source:
+        type: git
+        reference: 1.0.3
+        url: https://github.com/supercool/scheduler
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/supercool/scheduler/scheduler
+          destination: craft/plugins/scheduler
+  
   ## Snitch
   marionnewlevant/craft-snitch:
     type: package
