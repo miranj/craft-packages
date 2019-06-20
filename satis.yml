@@ -540,6 +540,17 @@ repositories:
     - name: barrelstrength/craft-sprout-reports
       description: Sprout Reports allows you to create and group custom reports.
       homepage: https://sprout.barrelstrengthdesign.com/docs/reports/
+      version: 0.10.3
+      source:
+        type: git
+        reference: v0.10.3
+        url: https://github.com/barrelstrength/craft-sprout-reports
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+      extra:
+        installer-name: sproutreports
+    - name: barrelstrength/craft-sprout-reports
       version: 0.10.2
       source:
         type: git
