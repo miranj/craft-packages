@@ -192,6 +192,25 @@ repositories:
           source: vendor/verbb/expanded-singles/expandedsingles
           destination: craft/plugins/expandedsingles
   
+  ## Feed Me
+  craftcms/feed-me:
+    type: package
+    package:
+    - name: craftcms/feed-me
+      description: Easily import entries from XML/RSS/JSON feeds, for scheduled processing, or on-demand with template tag.
+      homepage: https://github.com/craftcms/feed-me
+      version: 2.0.17
+      source:
+        type: git
+        reference: 2.0.17
+        url: https://github.com/craftcms/feed-me
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/craftcms/feed-me/feedme
+          destination: craft/plugins/feedme
+  
   ## Imager
   aelvan/imager-craft:
     type: package
