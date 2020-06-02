@@ -666,3 +666,22 @@ repositories:
         filescopier:
           source: vendor/jamiepittock/craft-typogrify/typogrify
           destination: craft/plugins/typogrify
+
+  ## Color Swatches
+  vigetlabs/craft-color-swatches:
+    type: package
+    package:
+    - name: vigetlabs/craft-color-swatches
+      description: Choose a color from a selection of admin defined colors.
+      homepage: https://github.com/vigetlabs/craft-color-swatches
+      version: 1.0.0
+      source:
+        type: git
+        reference: v1.0.0
+        url: https://github.com/vigetlabs/craft-color-swatches
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/vigetlabs/craft-color-swatches/colorswatches
+          destination: craft/plugins/colorswatches
