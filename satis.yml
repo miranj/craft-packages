@@ -265,6 +265,25 @@ repositories:
           source: vendor/verbb/image-resizer/imageresizer
           destination: craft/plugins/imageresizer
   
+  ## JSON Decode Twig Filter
+  diit/Json-Decode-Twig:
+    type: package
+    package:
+    - name: diit/Json-Decode-Twig
+      homepage: https://github.com/diit/Json-Decode-Twig
+      description:  Adds a json_decode filter to your craft CMS site.
+      version: 1.0.9
+      source:
+        type: git
+        reference: e859bcb
+        url: https://github.com/diit/Json-Decode-Twig
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/diit/Json-Decode-Twig/jsondecodetwigfilter
+          destination: craft/plugins/jsondecodetwigfilter
+  
   ## Language Link
   lindseydiloreto/craft-languagelink:
     type: package
