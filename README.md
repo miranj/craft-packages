@@ -77,7 +77,7 @@ Here's how:
                 source: vendor/aelvan/imager-craft/imager   # vendor/<vendor>/<package>/<subfolder>
                 destination: craft/plugins/imager           # craft/plugins/<subfolder>
 
-You will find plenty of examples already inside `sats.yml` for the variants described above,
+You will find plenty of examples already inside `satis.yml` for the variants described above,
 as well as for things like adding multiple versions of a plugin.
 
 Refer to the [official Composer repositories docs][repo docs] for all the supported options and variations.
