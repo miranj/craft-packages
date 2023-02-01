@@ -151,7 +151,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/jdsdev/Embedder/embedder
+          source: vendor/jdsdev/embedder/embedder
           destination: craft/plugins/embedder
     - name: jdsdev/embedder
       homepage: https://github.com/jdsdev/Embedder
@@ -165,7 +165,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/jdsdev/Embedder/embedder
+          source: vendor/jdsdev/embedder/embedder
           destination: craft/plugins/embedder
     - name: jdsdev/embedder
       homepage: https://github.com/jdsdev/Embedder
@@ -179,7 +179,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/jdsdev/Embedder/embedder
+          source: vendor/jdsdev/embedder/embedder
           destination: craft/plugins/embedder
   
   ## CP Sortable Custom Columns
@@ -198,7 +198,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/mmikkel/CpSortableCustomColumns-Craft/cpsortcols
+          source: vendor/mmikkel/cpsortablecustomcolumns-craft/cpsortcols
           destination: craft/plugins/cpsortcols
   
   ## Embedded Assets
@@ -419,7 +419,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/Firstborn/Craft-CMS-Migration-Manager/migrationmanager
+          source: vendor/firstborn/craft-cms-migration-manager/migrationmanager
           destination: craft/plugins/migrationmanager
   
   ## Obfuscator
@@ -459,7 +459,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/aelvan/Preparse-Field-Craft/preparsefield
+          source: vendor/aelvan/preparse-field-craft/preparsefield
           destination: craft/plugins/preparsefield
   
   ## Neo
@@ -773,7 +773,7 @@ repositories:
         sasedev/composer-plugin-filecopier: "^1.1"
       extra:
         filescopier:
-          source: vendor/TopShelfCraft/SuperSort/supersort
+          source: vendor/topshelfcraft/supersort/supersort
           destination: craft/plugins/supersort
   
   ## Table Maker
