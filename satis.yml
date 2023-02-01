@@ -594,6 +594,95 @@ repositories:
           source: vendor/lacroixdesign/craft-obsolete-url-redirect/obsoleteredirect
           destination: craft/plugins/obsoleteredirect
   
+  ## Reasons
+  mmikkel/Reasons-Craft:
+    type: package
+    package:
+    - name: mmikkel/reasons-craft
+      description: Reasons adds simple conditionals to field layouts – making it possible to hide or display fields on the fly, as content is being edited.
+      homepage: https://github.com/mmikkel/Reasons-Craft
+      version: 1.0.11
+      source:
+        type: git
+        reference: v.1.0.11
+        url: https://github.com/mmikkel/Reasons-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/reasons-craft/reasons
+          destination: craft/plugins/reasons
+    - name: mmikkel/reasons-craft
+      description: Reasons adds simple conditionals to field layouts – making it possible to hide or display fields on the fly, as content is being edited.
+      homepage: https://github.com/mmikkel/Reasons-Craft
+      version: 1.0.10
+      source:
+        type: git
+        reference: v.1.0.10
+        url: https://github.com/mmikkel/Reasons-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/reasons-craft/reasons
+          destination: craft/plugins/reasons
+    - name: mmikkel/reasons-craft
+      description: Reasons adds simple conditionals to field layouts – making it possible to hide or display fields on the fly, as content is being edited.
+      homepage: https://github.com/mmikkel/Reasons-Craft
+      version: 1.0.9
+      source:
+        type: git
+        reference: v.1.0.9
+        url: https://github.com/mmikkel/Reasons-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/reasons-craft/reasons
+          destination: craft/plugins/reasons
+    - name: mmikkel/reasons-craft
+      description: Reasons adds simple conditionals to field layouts – making it possible to hide or display fields on the fly, as content is being edited.
+      homepage: https://github.com/mmikkel/Reasons-Craft
+      version: 1.0.8
+      source:
+        type: git
+        reference: v.1.0.8
+        url: https://github.com/mmikkel/Reasons-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/reasons-craft/reasons
+          destination: craft/plugins/reasons
+    - name: mmikkel/reasons-craft
+      description: Reasons adds simple conditionals to field layouts – making it possible to hide or display fields on the fly, as content is being edited.
+      homepage: https://github.com/mmikkel/Reasons-Craft
+      version: 1.0.7
+      source:
+        type: git
+        reference: v.1.0.7
+        url: https://github.com/mmikkel/Reasons-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/reasons-craft/reasons
+          destination: craft/plugins/reasons
+    - name: mmikkel/reasons-craft
+      description: Reasons adds simple conditionals to field layouts – making it possible to hide or display fields on the fly, as content is being edited.
+      homepage: https://github.com/mmikkel/Reasons-Craft
+      version: 1.0.6
+      source:
+        type: git
+        reference: v.1.0.6
+        url: https://github.com/mmikkel/Reasons-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/reasons-craft/reasons
+          destination: craft/plugins/reasons
+  
   ## Redactor Clips
   craftcms/redactor-clips:
     type: package
