@@ -135,6 +135,53 @@ repositories:
           source: vendor/doublesecretagency/craft-cpjs/cpjs
           destination: craft/plugins/cpjs
   
+  ## Embedder
+  jdsdev/Embedder:
+    type: package
+    package:
+    - name: jdsdev/embedder
+      homepage: https://github.com/jdsdev/Embedder
+      description: Generate the exact, most up-to-date YouTube, Vimeo, Wistia, or Viddler embed code available.
+      version: 1.0.1
+      source:
+        type: git
+        reference: 96e946866a489c6cb90e4965fb6163bfcb3257c7
+        url: https://github.com/jdsdev/Embedder
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/jdsdev/Embedder/embedder
+          destination: craft/plugins/embedder
+    - name: jdsdev/embedder
+      homepage: https://github.com/jdsdev/Embedder
+      description: Generate the exact, most up-to-date YouTube, Vimeo, Wistia, or Viddler embed code available.
+      version: 1.0.0
+      source:
+        type: git
+        reference: 39b85e3c8701043e0b612e6f2e8067b72ed60808
+        url: https://github.com/jdsdev/Embedder
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/jdsdev/Embedder/embedder
+          destination: craft/plugins/embedder
+    - name: jdsdev/embedder
+      homepage: https://github.com/jdsdev/Embedder
+      description: Generate the exact, most up-to-date YouTube, Vimeo, Wistia, or Viddler embed code available.
+      version: 0.9.4
+      source:
+        type: git
+        reference: 6927454843d2194a8b43c7afe850f03a099d420f
+        url: https://github.com/jdsdev/Embedder
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/jdsdev/Embedder/embedder
+          destination: craft/plugins/embedder
+  
   ## CP Sortable Custom Columns
   mmikkel/CpSortableCustomColumns-Craft:
     type: package
