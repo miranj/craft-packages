@@ -475,6 +475,25 @@ repositories:
           source: vendor/miranj/craft-obfuscator/obfuscator
           destination: craft/plugins/obfuscator
   
+  ## Patrol
+  selvinortiz/craft.patrol:
+    type: package
+    package:
+    - name: selvinortiz/craft-patrol
+      description: Patrol simplifies SSL and maintenance routing for sites built with Craft CMS
+      homepage: https://github.com/selvinortiz/craft.patrol/tree/master
+      license: MIT
+      version: 1.4.2
+      source:
+        type: git
+        reference: v1.4.2
+        url: https://github.com/selvinortiz/craft.patrol
+      type: craft-plugin
+      require:
+        composer/installers: "~1.0"
+      extra:
+        installer-name: patrol
+  
   ## Preparse Field
   aelvan/Preparse-Field-Craft:
     type: package
