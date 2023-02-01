@@ -135,6 +135,25 @@ repositories:
           source: vendor/doublesecretagency/craft-cpjs/cpjs
           destination: craft/plugins/cpjs
   
+  ## CP Sortable Custom Columns
+  mmikkel/CpSortableCustomColumns-Craft:
+    type: package
+    package:
+    - name: mmikkel/cpsortablecustomcolumns-craft
+      homepage: https://github.com/mmikkel/CpSortableCustomColumns-Craft
+      description: Automatically adds custom fields to sortable attributes in element indexes.
+      version: 1.1.2
+      source:
+        type: git
+        reference: v.1.1.2
+        url: https://github.com/mmikkel/CpSortableCustomColumns-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/cpsortablecustomcolumns-craft/cpsortcols
+          destination: craft/plugins/cpsortcols
+  
   ## Embedder
   jdsdev/Embedder:
     type: package
@@ -181,25 +200,6 @@ repositories:
         filescopier:
           source: vendor/jdsdev/embedder/embedder
           destination: craft/plugins/embedder
-  
-  ## CP Sortable Custom Columns
-  mmikkel/CpSortableCustomColumns-Craft:
-    type: package
-    package:
-    - name: mmikkel/cpsortablecustomcolumns-craft
-      homepage: https://github.com/mmikkel/CpSortableCustomColumns-Craft
-      description: Automatically adds custom fields to sortable attributes in element indexes.
-      version: 1.1.2
-      source:
-        type: git
-        reference: v.1.1.2
-        url: https://github.com/mmikkel/CpSortableCustomColumns-Craft
-      require:
-        sasedev/composer-plugin-filecopier: "^1.1"
-      extra:
-        filescopier:
-          source: vendor/mmikkel/cpsortablecustomcolumns-craft/cpsortcols
-          destination: craft/plugins/cpsortcols
   
   ## Embedded Assets
   benjamminf/craft-embedded-assets:
