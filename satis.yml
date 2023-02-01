@@ -1,4 +1,4 @@
-name: Craft CMS 2 Packages
+name: miranj/craft-packages
 description: Packagist server for Craft CMS 2 plugins. Read more https://github.com/miranj/craft-packages
 homepage: https://craft2packages.miranj.in/
 output-dir: web
@@ -139,7 +139,7 @@ repositories:
   mmikkel/CpSortableCustomColumns-Craft:
     type: package
     package:
-    - name: mmikkel/CpSortableCustomColumns-Craft
+    - name: mmikkel/cpsortablecustomcolumns-craft
       homepage: https://github.com/mmikkel/CpSortableCustomColumns-Craft
       description: Automatically adds custom fields to sortable attributes in element indexes.
       version: 1.1.2
@@ -359,7 +359,7 @@ repositories:
   Firstborn/Craft-CMS-Migration-Manager:
     type: package
     package:
-    - name: Firstborn/Craft-CMS-Migration-Manager
+    - name: firstborn/craft-cms-migration-manager
       description: Create migrations to easily move settings and content between CraftCMS website installations.
       homepage: https://github.com/Firstborn/Craft-CMS-Migration-Manager
       license: MIT
@@ -399,7 +399,7 @@ repositories:
   aelvan/Preparse-Field-Craft:
     type: package
     package:
-    - name: aelvan/Preparse-Field-Craft
+    - name: aelvan/preparse-field-craft
       description: A fieldtype that parses Twig when an element is saved, and saves the result as plain text.
       homepage: https://github.com/aelvan/Preparse-Field-Craft/tree/master
       license: MIT
@@ -654,7 +654,7 @@ repositories:
   aelvan/Stamp-Craft:
     type: package
     package:
-    - name: aelvan/Stamp-Craft
+    - name: aelvan/stamp-craft
       description: Plugin for adding timestamp to filenames.
       homepage: https://github.com/aelvan/Stamp-Craft
       version: 1.1.0
@@ -672,7 +672,7 @@ repositories:
   TopShelfCraft/SuperSort:
     type: package
     package:
-    - name: TopShelfCraft/SuperSort
+    - name: topshelfcraft/supersort
       description: A Twig filter for sorting elements by rendering a micro template — Sort elements by Matrix values, math results, properties of related elements, etc.
       homepage: https://github.com/TopShelfCraft/SuperSort/tree/1.x
       version: 1.2.0
