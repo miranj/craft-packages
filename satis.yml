@@ -116,6 +116,25 @@ repositories:
           source: vendor/doublesecretagency/craft-cpcss/cpcss
           destination: craft/plugins/cpcss
   
+  ## Control Panel JS
+  doublesecretagency/craft-cpjs:
+    type: package
+    package:
+    - name: doublesecretagency/craft-cpjs
+      homepage: https://github.com/doublesecretagency/craft-cpjs
+      description: Add custom JS to your Control Panel.
+      version: 1.1.0
+      source:
+        type: git
+        reference: 7129cff6e8c09cf8c743ced924c5162b09cbf117
+        url: https://github.com/doublesecretagency/craft-cpjs
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/doublesecretagency/craft-cpjs/cpjs
+          destination: craft/plugins/cpjs
+  
   ## CP Sortable Custom Columns
   mmikkel/CpSortableCustomColumns-Craft:
     type: package
