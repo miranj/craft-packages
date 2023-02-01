@@ -422,6 +422,48 @@ repositories:
     - name: benjamminf/craft-neo
       description: A Matrix-like field type that uses existing fields.
       homepage: https://github.com/benjamminf/craft-neo
+      version: 1.5.2
+      source:
+        type: git
+        reference: 1.5.2
+        url: https://github.com/benjamminf/craft-neo
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/benjamminf/craft-neo/neo
+          destination: craft/plugins/neo
+    - name: benjamminf/craft-neo
+      description: A Matrix-like field type that uses existing fields.
+      homepage: https://github.com/benjamminf/craft-neo
+      version: 1.5.1
+      source:
+        type: git
+        reference: 1.5.1
+        url: https://github.com/benjamminf/craft-neo
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/benjamminf/craft-neo/neo
+          destination: craft/plugins/neo
+    - name: benjamminf/craft-neo
+      description: A Matrix-like field type that uses existing fields.
+      homepage: https://github.com/benjamminf/craft-neo
+      version: 1.5.0
+      source:
+        type: git
+        reference: 6e88fe76db1227d96fd679fc2c9b3f39946e4003
+        url: https://github.com/benjamminf/craft-neo
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/benjamminf/craft-neo/neo
+          destination: craft/plugins/neo
+    - name: benjamminf/craft-neo
+      description: A Matrix-like field type that uses existing fields.
+      homepage: https://github.com/benjamminf/craft-neo
       version: 1.4.1
       source:
         type: git
