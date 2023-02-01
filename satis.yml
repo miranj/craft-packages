@@ -993,6 +993,25 @@ repositories:
           source: vendor/jamiepittock/craft-typogrify/typogrify
           destination: craft/plugins/typogrify
   
+  ## Video Embed Utility
+  Staplegun-US/craft-video-embed-utility:
+    type: package
+    package:
+    - name: staplegun-us/craft-video-embed-utility
+      description: A Twig filter for converting YouTube, Vimeo and Facebook URLs into an embedded video <iframe> with the necessary settings applied.
+      homepage: https://github.com/Staplegun-US/craft-video-embed-utility
+      version: 1.0.0
+      source:
+        type: git
+        reference: 4323a76
+        url: https://github.com/Staplegun-US/craft-video-embed-utility
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/staplegun-us/craft-video-embed-utility/videoembedutility
+          destination: craft/plugins/videoembedutility
+  
   ## VzUrl
   elivz/VzUrl-Craft:
     type: package
