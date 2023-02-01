@@ -277,6 +277,39 @@ repositories:
           source: vendor/craftcms/feed-me/feedme
           destination: craft/plugins/feedme
   
+  ## Focus Point
+  smcyr/Craft-FocusPoint:
+    type: package
+    package:
+    - name: smcyr/craft-focuspoint
+      homepage: https://github.com/smcyr/Craft-FocusPoint
+      description: Creates a new field type 'Focus Point' where you can choose coordinates on an image for the focus point.
+      version: 1.1.8
+      source:
+        type: git
+        reference: 1.1.8
+        url: https://github.com/smcyr/Craft-FocusPoint
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/smcyr/craft-focuspoint/focuspoint
+          destination: craft/plugins/focuspoint
+    - name: smcyr/craft-focuspoint
+      homepage: https://github.com/smcyr/Craft-FocusPoint
+      description: Creates a new field type 'Focus Point' where you can choose coordinates on an image for the focus point.
+      version: 1.1.7
+      source:
+        type: git
+        reference: 1.1.7
+        url: https://github.com/smcyr/Craft-FocusPoint
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/smcyr/craft-focuspoint/focuspoint
+          destination: craft/plugins/focuspoint
+  
   ## Imager
   aelvan/imager-craft:
     type: package
