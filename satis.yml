@@ -973,3 +973,50 @@ repositories:
         filescopier:
           source: vendor/jamiepittock/craft-typogrify/typogrify
           destination: craft/plugins/typogrify
+  
+  ## VzUrl
+  elivz/VzUrl-Craft:
+    type: package
+    package:
+    - name: elivz/vzurl-craft
+      description: A VZ URL field displays a textbox where the user can enter a URL.
+      homepage: https://github.com/elivz/VzUrl-Craft/tree/1.1.1
+      version: 1.1.1
+      source:
+        type: git
+        reference: 1.1.1
+        url: https://github.com/elivz/VzUrl-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/elivz/vzurl-craft/vzurl
+          destination: craft/plugins/vzurl
+    - name: elivz/vzurl-craft
+      description: A VZ URL field displays a textbox where the user can enter a URL.
+      homepage: https://github.com/elivz/VzUrl-Craft/tree/1.1.1
+      version: 1.0.5
+      source:
+        type: git
+        reference: 1.0.5
+        url: https://github.com/elivz/VzUrl-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/elivz/vzurl-craft/vzurl
+          destination: craft/plugins/vzurl
+    - name: elivz/vzurl-craft
+      description: A VZ URL field displays a textbox where the user can enter a URL.
+      homepage: https://github.com/elivz/VzUrl-Craft/tree/1.1.1
+      version: 1.0.2
+      source:
+        type: git
+        reference: 339fa535a6efd8ceb1d822cc99aaf0b45cf20ca1
+        url: https://github.com/elivz/VzUrl-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/elivz/vzurl-craft/vzurl
+          destination: craft/plugins/vzurl
