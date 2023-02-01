@@ -454,6 +454,25 @@ repositories:
           source: vendor/lewisjenkins/craft-lj-dynamicfields/lj_dynamicfields
           destination: craft/plugins/lj_dynamicfields
   
+  ## Link It
+  fruitstudios/linkit:
+    type: package
+    package:
+    - name: fruitstudios/linkit
+      description: One link field to replace them all, a multi-purpose link fieldtype for Craft CMS.
+      homepage: https://github.com/fruitstudios/linkit
+      version: 2.3.4
+      source:
+        type: git
+        reference: 2.3.4
+        url: https://github.com/fruitstudios/linkit
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/fruitstudios/linkit/fruitlinkit
+          destination: craft/plugins/fruitlinkit
+  
   ## Migration Manager
   Firstborn/Craft-CMS-Migration-Manager:
     type: package
