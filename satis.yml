@@ -154,6 +154,53 @@ repositories:
           source: vendor/doublesecretagency/craft-cpjs/cpjs
           destination: craft/plugins/cpjs
   
+  ## CP Field Links
+  mmikkel/CpFieldLinks-Craft:
+    type: package
+    package:
+    - name: mmikkel/cpfieldlinks-craft
+      homepage: https://github.com/mmikkel/CpFieldLinks-Craft
+      description: A tiny utility plugin making content modelling a little bit easier in Craft.
+      version: 1.2.2
+      source:
+        type: git
+        reference: v.1.2.2
+        url: https://github.com/mmikkel/CpFieldLinks-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/cpfieldlinks-craft/cpfieldlinks
+          destination: craft/plugins/cpfieldlinks
+    - name: mmikkel/cpfieldlinks-craft
+      homepage: https://github.com/mmikkel/CpFieldLinks-Craft
+      description: A tiny utility plugin making content modelling a little bit easier in Craft.
+      version: 1.2.1
+      source:
+        type: git
+        reference: v.1.2.1
+        url: https://github.com/mmikkel/CpFieldLinks-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/cpfieldlinks-craft/cpfieldlinks
+          destination: craft/plugins/cpfieldlinks
+    - name: mmikkel/cpfieldlinks-craft
+      homepage: https://github.com/mmikkel/CpFieldLinks-Craft
+      description: A tiny utility plugin making content modelling a little bit easier in Craft.
+      version: 1.2
+      source:
+        type: git
+        reference: v.1.2
+        url: https://github.com/mmikkel/CpFieldLinks-Craft
+      require:
+        sasedev/composer-plugin-filecopier: "^1.1"
+      extra:
+        filescopier:
+          source: vendor/mmikkel/cpfieldlinks-craft/cpfieldlinks
+          destination: craft/plugins/cpfieldlinks
+  
   ## CP Sortable Custom Columns
   mmikkel/CpSortableCustomColumns-Craft:
     type: package
